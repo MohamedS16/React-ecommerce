@@ -1,0 +1,69 @@
+
+.cartitems{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cartitems-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title{
+    font-size: 50px;
+    padding: 30px;
+}
+
+.cart-item{
+    width: 350px;
+    height: auto;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cart-item img{
+    height: 100px;
+    width: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.cart-item h2{
+    margin: 10px;
+}
+
+.cart-item p{
+    margin: 5px;
+    
+}
+
+
+button{
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid dodgerblue;
+    background-color: transparent;
+    margin: 5px;
+    color: dodgerblue;
+    font-weight: 600;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: dodgerblue;
+    color: white;
+
+}
